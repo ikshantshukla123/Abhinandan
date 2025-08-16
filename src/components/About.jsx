@@ -4,14 +4,14 @@ const About = () => {
       id: 1,
       name: "Chef Rajesh Malhotra",
       role: "Head Chef",
-      image: "/src/images/chef1.jpg",
+      image: "/images/chef1.jpg",
       description: "With over 25 years of experience in traditional Indian cuisine, Chef Rajesh brings authentic flavors to every dish."
     },
     {
       id: 2,
       name: "Chef Priya Sharma",
       role: "Sous Chef",
-      image: "/src/images/chef2.jpg",
+      image: "/images/chef2.jpg",
       description: "Specializing in modern interpretations of classic recipes, Chef Priya creates innovative culinary experiences."
     }
   ];
@@ -56,7 +56,7 @@ const About = () => {
               <div 
                 className="h-96 rounded-2xl bg-cover bg-center"
                 style={{
-                  backgroundImage: `url('/src/images/pexels-enginakyurt-2347311.jpg')`
+                  backgroundImage: `url('/images/abhi.png')`
                 }}
               >
                 <div className="absolute inset-0 bg-black/30 rounded-2xl"></div>

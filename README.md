@@ -50,6 +50,8 @@ npm run dev
 ## 🏗️ Project Structure
 
 ```
+public/
+|── images/                # Restaurant and food images
 src/
 ├── components/
 │   ├── Navbar.jsx          # Fixed navigation bar
@@ -58,7 +60,6 @@ src/
 │   ├── SpecialDishes.jsx  # Menu showcase with filtering
 │   ├── Contact.jsx        # Contact form and information
 │   └── WhyUs.jsx          # Unique selling points
-├── images/                # Restaurant and food images
 ├── App.jsx               # Main app component with routing
 ├── main.jsx              # React entry point
 ├── index.css             # Global styles and Tailwind imports

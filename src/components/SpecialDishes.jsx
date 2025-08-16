@@ -7,7 +7,7 @@ const SpecialDishes = () => {
       name: "Tandoori Roti",
       description: "Tender chicken cooked in a rich, creamy tomato-based sauce with aromatic spices",
       price: "₹10(1pcs)",
-      image: "/src/images/pexels-paggiarofrancesco-1117862.jpg",
+      image: "/images/pexels-paggiarofrancesco-1117862.jpg",
       category: "Main Course",
       spiceLevel: "Mild",
       isVeg: true
@@ -17,7 +17,7 @@ const SpecialDishes = () => {
       name: "Paneer Tikka",
       description: "Marinated cottage cheese grilled to perfection with traditional Indian spices",
       price: "₹279",
-      image: "/src/images/paneer.jpg",
+      image: "/images/paneer.jpg",
       category: "Appetizer",
       spiceLevel: "Medium",
       isVeg: true
@@ -27,7 +27,7 @@ const SpecialDishes = () => {
       name: "Crebil-Biryani",
       description: "Fragrant basmati rice cooked with tender meat and aromatic spices",
       price: "₹399",
-      image: "/src/images/photo-1604908177453-7462950a6a3b.avif",
+     image: "/images/photo-1604908177453-7462950a6a3b.avif",
       category: "Main Course",
       spiceLevel: "Medium",
       isVeg: false
@@ -37,7 +37,7 @@ const SpecialDishes = () => {
       name: "Dal Makhani",
       description: "Creamy black lentils slow-cooked overnight with butter and cream",
       price: "₹199",
-      image: "/src/images/Daal.jpg",
+      image: "/images/Daal.jpg",
       category: "Main Course",
       spiceLevel: "Mild",
       isVeg: true
@@ -47,7 +47,7 @@ const SpecialDishes = () => {
       name: "Tandoori Momo",
       description: "Marinated chicken cooked in traditional clay oven with signature spices",
       price: "₹499(10pcs)",
-      image: "/src/images/momo.avif",
+      image: "/images/momo.avif",
       category: "Appetizer",
       spiceLevel: "Medium",
       isVeg: false
@@ -57,7 +57,7 @@ const SpecialDishes = () => {
       name: "Gulab Jamun",
       description: "Sweet milk solids dumplings soaked in rose-flavored sugar syrup",
       price: "₹199(4pcs)",
-      image: "/src/images/gulaab.jpg",
+      image: "/images/gulaab.jpg",
       category: "Dessert",
       spiceLevel: "None",
       isVeg: true
@@ -204,7 +204,7 @@ const SpecialDishes = () => {
               <div 
                 className="h-96 rounded-2xl bg-cover bg-center"
                 style={{
-                  backgroundImage: `url('/src/images/royal.jpg')`
+                  backgroundImage: `url('/images/royal.jpg')`
                 }}
               >
                 <div className="absolute inset-0 bg-black/30 rounded-2xl"></div>
